@@ -6,7 +6,7 @@ from operator import attrgetter
 from itertools import product
 import traceback
 from intermine.webservice import Service, ServiceError
-
+import sys 
 usage = """
 %s: Compare the enrichment statistics from two versions of the same webservice
 
